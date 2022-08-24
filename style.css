@@ -1,0 +1,124 @@
+*{
+    padding: 0%;margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+nav{
+    padding: 2vh 5vh;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>*{
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+}
+
+nav> #navMid{
+    width: 50%;
+    background-color: #fff;
+}
+
+nav> #navEnd{
+    width: 20%;
+}
+
+
+#midWhole{
+    height: 80vh;
+    display: flex;
+}
+
+#midWholePart1{
+    width: 65%;
+    padding: 4vh 5vh;
+    background-color: #fff;
+}
+
+#midWholePart11>div>ul>li:first-child{
+    font-size: 2.5em;
+    list-style: none;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-family: 'Allerta';
+}
+
+#midWholePart11>div>ul>li>h1:first-child::before{
+    content: '.';
+    margin-right: 3vh;
+
+}
+
+#midWholePart11>div>ul>li ~ li{
+    font-family: 'Allerta';
+    text-align: left;
+    list-style-type: none;
+}
+
+#midWholePart11>div>ul>li ~ li::before{
+    content: '.';
+    line-height: -0px;
+    font-size: 6em;
+    margin-right: 3vh;
+
+}
+
+#midWholePart121{
+    height: 10vh;
+    position: relative;
+    left: 5vh;
+    top: 10vh;
+    color: #fff;
+    width: 40%;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Allerta';
+    font-weight: 200;
+    background-color: rgb(80, 150, 63);
+}
+
+#midWholePart122{
+    float: right;
+}
+
+#midWholePart13{
+    width: 110%;
+    position: relative;
+    top: 30%;
+    display: flex;
+    color: gray;
+}
+
+.midWholePart13Parts>*>*{
+    display: inline-block;
+    
+    font-family: 'Allerta';
+}
+
+.midWholePart13Parts>*>p{
+    font-size: .7em;
+    font-family: 'Allerta';
+    color: gray;
+    margin-top: 2vh;
+}
+.midWholePart13Parts{
+    display: flex;
+}
+
+#imgMain{
+    position: relative;
+    left: 10%;
+    height: 100vh;
+    transform: scale(.9);
+}
